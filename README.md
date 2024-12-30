@@ -18,4 +18,4 @@ java Ascii demo.jpg 1
 The first parameter is the path of the image
 The second parameter is the invert flag:
 - 1 -> Image color is inverted (black = " ")
-- 0 -> Image color not inverted (black = "@")
+- 0 -> Image color not inverted (black = "@") 
