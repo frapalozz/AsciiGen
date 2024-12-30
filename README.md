@@ -1,18 +1,22 @@
-## AsciiGen
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# AsciiGen
+AsciiGen converts images to Ascii
+## How to Use It
+1. Download the source files
+```
+cd AsciiGenerator
+git clone https://github.com/frapalozz/AsciiGen.git
+```
+2. Compile the code
+```
+cd AsciiGen/src
+javac Ascii.java
+```
+3. Execute
+```
+java Ascii demo.jpg 1
+```
+# How it Works
+The first parameter is the path of the image
+The second parameter is the invert flag:
+- 1 -> Image color is inverted (black = " ")
+- 0 -> Image color not inverted (black = "@")
