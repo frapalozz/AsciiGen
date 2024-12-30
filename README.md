@@ -3,12 +3,11 @@ AsciiGen converts images to Ascii
 ## How to Use It
 1. Download the source files
 ```
-cd AsciiGenerator
 git clone https://github.com/frapalozz/AsciiGen.git
 ```
 2. Compile the code
 ```
-cd AsciiGen/src
+cd AsciiGen
 javac Ascii.java
 ```
 3. Execute
